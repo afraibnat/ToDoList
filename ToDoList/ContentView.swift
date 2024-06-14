@@ -17,9 +17,13 @@ struct ContentView: View {
     var body: some View {
         VStack {
             HStack {
-                Text("To Do List")
+                // Displays to-do list
+                Text("PACKING LIST")
                     .font(.system(size: 40))
                     .fontWeight(.black)
+                    .multilineTextAlignment(.center)
+                
+                
                 Spacer()
                 
                 Button {
